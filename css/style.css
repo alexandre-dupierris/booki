@@ -83,6 +83,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 18px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -342,9 +346,6 @@ a {
     }
 
     /* filtres */
-    #filtres {
-        gap: 20px;
-    }
 
     .filtres button {
         width: 40%;
