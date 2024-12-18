@@ -34,12 +34,12 @@
         <main>
             <section id="recherche">
                 <div class="texte">
-                    <h1 class="section-title">trouvez votre hébergement pour des vacances de rêve</h1>
+                    <h2 class="section-title">trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
                 <div id="zone-de-recherche">
                     <form action="" method="get">
-                        <label for="localisation"><i class="label-form fa-solid fa-location-dot"></i></label>
+                        <label for="localisation"><i class="label-form fa-solid fa-location-dot" aria-hidden="true"></i></label>
                         <input type="text" name="localisation" id="localisation">
                         <button type="submit" class="responsive-button">
                             <span class="button-text">Rechercher</span>
@@ -49,32 +49,56 @@
                 </div>
             </section>
             <section id="filtres">
-                <h2>filtres</h2>
+                <h3>filtres</h3>
                 <div class="filtres">
                     <button type="submit" name="filtre-economique" id="filtre-economique">
-                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>
                         <span>Économique</span>
                     </button>
                     <button type="submit" name="filtre-familial" id="filtre-familial">
-                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-person" aria-hidden="true"></i>
                         <span>Familial</span>
                     </button>
                     <button type="submit" name="filtre-romantique" id="filtre-romantique">
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart" aria-hidden="true"></i>
                         <span>Romantique</span>
                     </button>
                     <button type="submit" name="filtre-pepites" id="filtre-pepites">
-                        <i class="fa-solid fa-fire"></i>
+                        <i class="fa-solid fa-fire" aria-hidden="true"></i>
                         <span>Nos pépites</span>
                     </button>
                 </div>
             </section>
             <section id="hebergements-and-populaires">
                 <section class="hebergements">
+                    <div class="hebergements-title">
+                        <h2 class="section-title">hébergements</h2>
+                    </div>
+                    <div class="hebergements-cards">
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/fred-kleber.jpg" alt="image de la chambre d'hôtel">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
-                        <h1 class="section-title">Les plus populaires</h2>
+                        <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
