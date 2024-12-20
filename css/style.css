@@ -115,6 +115,8 @@ p {
     height: fit-content;
     justify-content: space-between;
     gap: 68px;
+    padding: 0;
+    margin: 0;
 }
 
 #menu .buttons .button {
